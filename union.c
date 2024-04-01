@@ -7,7 +7,6 @@ int main()
     char address[20];
     float marks;
 }st;
-printf("\nstudent id is %d",st.id);
 printf("\nEnter the name:\n");
 gets(st.name);
 printf("\nStudent name is %s",st.name);
@@ -19,6 +18,7 @@ scanf("%f",&st.marks);
 printf("\nmarks is %f",st.marks);
 printf("Enter the student id:");
 scanf("%d",&st.id);
+printf("\nstudent id is %d",st.id);
 return 0;
 
 }
