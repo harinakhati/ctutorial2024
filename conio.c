@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
 int i =0,k;
 for(k=5;k>=0;k--)
